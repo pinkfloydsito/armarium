@@ -1,0 +1,10 @@
+armarium.renderer/node_modules/
+__pycache__
+*.pyc
+varmarium
+webpack_bundles
+webpack-stats.json
+.vscode
+armarium/main/static/bundle.js
+node_modules
+npm-debug\.log
