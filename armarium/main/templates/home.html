@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load static %}
+{% load jsonify %}
+
+<div id="root" class="padding">
+  <div id="app-container">{{ data.rendered|safe }}</div>
+</div>
+<script>
+ var store = {{ data.store | jsonify | safe }}; 
+</script>
+
+{% load render_bundle from webpack_loader %} 
+{% render_bundle 'main' %} 
+
+{% endblock %}
