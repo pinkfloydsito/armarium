@@ -6,7 +6,7 @@ cffi==1.10.0
 chardet==3.0.3
 cookies==2.2.1
 cryptography==1.9
-Django==1.11.2
+Django==1.11.29
 django-jsonify==0.3.0
 django-redis==4.8.0
 django-redis-sessions==0.5.6
