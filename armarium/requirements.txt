@@ -17,7 +17,7 @@ idna==2.5
 Mako==1.0.6
 MarkupSafe==1.0
 mozilla-django-oidc==0.3.1
-oic==0.10.0.0
+oic==1.2.1
 optional-django==0.3.0
 psycopg2==2.7.1
 py2neo==3.1.2
